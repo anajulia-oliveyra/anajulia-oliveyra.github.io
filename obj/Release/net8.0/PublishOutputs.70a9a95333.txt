@@ -1,2 +1,0 @@
-C:\Users\fhdd\Desktop\PaginaEmpresa_WASM\PaginaEmpresa\obj\Release\net8.0\browser-wasm\PubTmp\Out\emcc-props.json
-C:\Users\fhdd\Desktop\PaginaEmpresa_WASM\PaginaEmpresa\obj\Release\net8.0\browser-wasm\PubTmp\Out\web.config
