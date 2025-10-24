@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o5LM3G09Z30=",
+  "dgSpecHash": "WOzIaXjCKXs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\fhdd\\Desktop\\PaginaEmpresa_WASM\\PaginaEmpresa\\PaginaEmpresa.csproj",
+  "projectFilePath": "C:\\Users\\fhdd\\Desktop\\anajulia-oliveyra.github.io\\PaginaEmpresa.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fhdd\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.21\\microsoft.aspnetcore.authorization.8.0.21.nupkg.sha512",
     "C:\\Users\\fhdd\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.21\\microsoft.aspnetcore.components.8.0.21.nupkg.sha512",
