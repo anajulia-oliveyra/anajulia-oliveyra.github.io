@@ -1,0 +1,174 @@
+/* ====== Fontes ====== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@600;800&display=swap');
+
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #2C3A47; /* bege claro */
+
+    color: #f0efeb; /* cinza escuro */
+}
+
+
+
+h1, h2, h3, .brand-name {
+    font-family: 'Exo 2', sans-serif;
+}
+
+
+
+/* ====== Cores da identidade ====== */
+
+:root {
+    --primary-color: #182C61; /* Ending Navy Blue */
+
+    --secondary-color: #FC427B; /* Sasquatch Socks */
+
+    --accent-blue: #3B3B98; /* Bluebell */
+
+    --accent-green: #58B19F; /* Keppel */
+
+    --accent-yellow: #EAB543; /* Honey Glow */
+
+    --alert-magenta: #B33771; /* Fiery Fuchsia */
+
+    --highlight-green: #9AECDB; /* Oasis Stream */
+
+    --support-purple: #6D214F; /* Magenta Purple */
+
+    --neutral-light: #CAD3C8;
+    --neutral-dark: #2C3A47;
+    --background-beige: #CAD3C8;
+}
+
+
+
+/* ====== Hero Section ====== */
+
+.hero-section {
+    background-color: var(--primary-color);
+    color: white;
+    outline: none !important;
+}
+
+
+
+.hero-section .brand-name {
+    color: var(--secondary-color);
+}
+
+.hero-section h1 {
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+
+/* ====== Botões ====== */
+
+.btn-primary {
+    background-color: var(--secondary-color);
+    border: none;
+}
+
+
+.btn-primary:hover {
+    background-color: var(--alert-magenta);
+}
+
+
+
+.btn-outline-primary {
+    border-color: var(--accent-yellow);
+    color: var(--accent-yellow);
+}
+
+
+
+.btn-outline-primary:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+
+
+/* ====== Cards ====== */
+
+.card {
+    border: none;
+    background-color: var(--neutral-light);
+}
+
+
+
+.card-title {
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+
+
+.card-text {
+    color: var(--neutral-dark);
+}
+
+
+
+/* ====== Call to Action ====== */
+
+.cta-section {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+
+
+/* ====== Rodapé ====== */
+
+.footer-section {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+
+
+/* Links */
+
+.footer-section a:hover {
+    color: var(--accent-yellow);
+}
+
+
+.navbar {
+    background-color: var(--primary-color) !important;
+    color: white;
+    border-bottom: none !important;
+}
+
+.navbar .nav-link {
+    color: white !important;
+}
+
+.navbar-custom {
+    background-color: var(--primary-color) !important;
+    border-bottom: none !important;
+}
+
+.navbar-custom a,
+.navbar-custom .nav-link,
+.navbar-custom .navbar-brand {
+    color: white !important;
+}
+
+.footer-section {
+    background-color: var(--primary-color) !important;
+    color: white;
+}
+
+.footer-section .container {
+    text-align: center;
+}
+
