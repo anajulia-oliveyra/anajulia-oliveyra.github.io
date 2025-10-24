@@ -2,8 +2,8 @@
 <!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
 <Project>
   <PropertyGroup>
-    <_PublishTargetUrl>C:\Users\fhdd\Desktop\PaginaEmpresa_WASM\PaginaEmpresa\bin\Release\net9.0\browser-wasm\publish\</_PublishTargetUrl>
-    <History>True|2025-10-24T14:00:20.3451150Z||;</History>
+    <_PublishTargetUrl>C:\Users\fhdd\Desktop\anajulia-oliveyra.github.io\bin\Release\net8.0\browser-wasm\publish\</_PublishTargetUrl>
+    <History>True|2025-10-24T16:49:59.1794975Z||;True|2025-10-24T13:47:43.6394895-03:00||;True|2025-10-24T13:46:49.1249617-03:00||;True|2025-10-24T13:46:34.5624933-03:00||;True|2025-10-24T13:45:51.6695049-03:00||;True|2025-10-24T11:00:20.3451150-03:00||;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>
