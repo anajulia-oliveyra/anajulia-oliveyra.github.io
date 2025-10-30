@@ -43,6 +43,9 @@ h1, h2, h3, .brand-name {
     --neutral-light: #CAD3C8;
     --neutral-dark: #2C3A47;
     --background-beige: #CAD3C8;
+
+    --info-color: #2C3A47;
+    --background-info: #CAD3C8;
 }
 
 
@@ -102,6 +105,11 @@ h1, h2, h3, .brand-name {
     background-color: var(--neutral-light);
 }
 
+.inverted {
+    border: none;
+    background-color: var(--neutral-dark);
+}
+
 
 
 .card-title {
@@ -109,10 +117,19 @@ h1, h2, h3, .brand-name {
     color: var(--primary-color);
 }
 
+.card-inverted-title {
+    font-weight: 700;
+    color: var(--neutral-light);
+}
+
 
 
 .card-text {
     color: var(--neutral-dark);
+}
+
+.card-inverted-text {
+    color: var(--neutral-light);
 }
 
 
@@ -171,4 +188,75 @@ h1, h2, h3, .brand-name {
 .footer-section .container {
     text-align: center;
 }
+
+.values {
+    color: var(--info-color);
+    background-color: var(--background-info);
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 1.5rem; 
+    text-align: center;
+}
+
+.card {
+    background-color: #0b2a48;
+    color: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 300px; /* largura fixa */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+    .card:hover {
+        transform: translateY(-5px);
+    }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* ===== Fundo bege esverdeado para as seções ===== */
+.essencia-section,
+.servicos-section {
+    background-color: #b9c4b6; /* bege esverdeado suave */
+    border-radius: 12px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+/* Espaço entre seções */
+.essencia-section {
+    margin-bottom: 4rem;
+}
+
+    /* ===== Cards escuros (tons azulados) ===== */
+    .essencia-section .card.inverted,
+    .servicos-section .card.inverted {
+        background-color: #182C61; /* navy blue consistente com a paleta */
+        color: #f0efeb; /* texto claro */
+        border-radius: 10px;
+    }
+
+    /* ===== Títulos ===== */
+    .essencia-section h2,
+    .servicos-section h2 {
+        color: #2C3A47; /* cinza escuro consistente */
+        font-weight: 800;
+    }
+
+    /* ===== Textos dentro dos cards ===== */
+    .card-inverted-title {
+        color: #ffffff;
+        font-weight: 700;
+    }
+
+    .card-inverted-text {
+        color: #eaeaea;
+    }
 
