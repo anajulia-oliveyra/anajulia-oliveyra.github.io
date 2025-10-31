@@ -56,10 +56,6 @@ h1, h2, h3, .brand-name {
     background-color: var(--primary-color);
     color: white;
     outline: none !important;
-    display: flex;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    min-height: 60vh;
 }
 
 
