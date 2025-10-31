@@ -1,0 +1,253 @@
+/* ====== Fontes ====== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@600;800&display=swap');
+
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--neutral-dark);
+    color: var(--neutral-light);
+}
+
+h1, h2, h3, .brand-name {
+    font-family: 'Exo 2', sans-serif;
+}
+
+
+
+/* ====== Cores da identidade ====== */
+
+:root {
+    --primary-color: #182C61; /* Ending Navy Blue */
+    --secondary-color: #FC427B; /* Sasquatch Socks */
+    --neutral-light: #CAD3C8; /* Falling Star */
+    --neutral-dark: #2C3A47; /*Ship's Officer*/
+
+    --accent-blue: #3B3B98; /* Bluebell */
+    --accent-green: #58B19F; /* Keppel */
+    --accent-yellow: #EAB543; /* Honey Glow */
+    --alert-magenta: #B33771; /* Fiery Fuchsia */
+    --highlight-green: #9AECDB; /* Oasis Stream */
+    --support-purple: #6D214F; /* Magenta Purple */
+}
+
+
+
+/* ====== Hero Section ====== */
+
+.hero-section {
+    background-color: var(--primary-color);
+    color: white;
+    outline: none !important;
+}
+
+
+
+.hero-section .brand-name {
+    color: var(--secondary-color);
+}
+
+
+/* ====== Bot�es ====== */
+
+.btn-primary {
+    background-color: var(--secondary-color);
+    border: none;
+}
+
+
+.btn-primary:hover {
+    background-color: var(--alert-magenta);
+}
+
+
+
+.btn-outline-primary {
+    border-color: var(--accent-yellow);
+    color: var(--accent-yellow);
+}
+
+
+
+.btn-outline-primary:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+
+
+/* ====== Cards ====== */
+
+.card {
+    border: none;
+    background-color: var(--neutral-light);
+}
+
+.inverted {
+    border: none;
+    background-color: var(--neutral-dark);
+}
+
+.card.inverted {
+    background-color: var(--neutral-dark) !important;
+    text-align: center;
+    padding: 15px 2px 2px 2px;
+}
+
+
+.card-title {
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.card-inverted-title {
+    font-weight: 700;
+    color: var(--neutral-light);
+}
+
+
+
+.card-text {
+    color: var(--neutral-dark);
+}
+
+.card-inverted-text {
+    color: var(--neutral-light);
+}
+
+
+
+/* ====== Call to Action ====== */
+
+.cta-section {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+
+
+/* ====== Rodapé ====== */
+
+.footer-section {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+
+
+/* Links */
+
+.footer-section a:hover {
+    color: var(--accent-yellow);
+}
+
+
+.navbar {
+    background-color: var(--primary-color);
+    color: white;
+    border-bottom: none;
+}
+
+.navbar .nav-link {
+    color: white;
+}
+
+.navbar-custom {
+    background-color: var(--primary-color);
+    border-bottom: none;
+}
+
+.navbar-custom a,
+.navbar-custom .nav-link,
+.navbar-custom .navbar-brand {
+    color: white;
+}
+
+.footer-section {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.footer-section .container {
+    text-align: center;
+}
+
+.values {
+    color: var(--neutral-dark);
+    background-color: var(--neutral-dark);
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 1.5rem; 
+    text-align: center;
+}
+
+.card {
+    background-color: #0b2a48;
+    color: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 300px; /* largura fixa */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* ===== Fundo bege esverdeado para as se��es ===== */
+.servicos-section {
+    background-color: var(--neutral-light); /* bege esverdeado suave */
+}
+
+.servicos-section{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.card.inverted, .servicos-section .card.inverted {
+    background-color: var(--primary-color); 
+    color: var(--neutral-light);
+}
+
+/* ===== T�tulos ===== */
+.servicos-section h2 {
+    color: var(--neutral-dark);
+    font-weight: 800;
+}
+
+/* ===== Textos dentro dos cards ===== */
+.card-inverted-title {
+    color: white;
+    font-weight: 700;
+}
+
+.card-inverted-text {
+    color: var(--neutral-light);
+}
+
+.projects .section-title {
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.project-title {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: var(--neutral-light);
+    margin-bottom: 0.5rem;
+}
