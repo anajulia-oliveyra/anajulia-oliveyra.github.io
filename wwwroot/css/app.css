@@ -8,12 +8,9 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    background-color: #2C3A47; /* bege claro */
-
-    color: #f0efeb; /* cinza escuro */
+    background-color: var(--neutral-dark);
+    color: var(--neutral-light);
 }
-
-
 
 h1, h2, h3, .brand-name {
     font-family: 'Exo 2', sans-serif;
@@ -25,27 +22,16 @@ h1, h2, h3, .brand-name {
 
 :root {
     --primary-color: #182C61; /* Ending Navy Blue */
-
     --secondary-color: #FC427B; /* Sasquatch Socks */
+    --neutral-light: #CAD3C8; /* Falling Star */
+    --neutral-dark: #2C3A47; /*Ship's Officer*/
 
     --accent-blue: #3B3B98; /* Bluebell */
-
     --accent-green: #58B19F; /* Keppel */
-
     --accent-yellow: #EAB543; /* Honey Glow */
-
     --alert-magenta: #B33771; /* Fiery Fuchsia */
-
     --highlight-green: #9AECDB; /* Oasis Stream */
-
     --support-purple: #6D214F; /* Magenta Purple */
-
-    --neutral-light: #CAD3C8;
-    --neutral-dark: #2C3A47;
-    --background-beige: #CAD3C8;
-
-    --info-color: #2C3A47;
-    --background-info: #CAD3C8;
 }
 
 
@@ -64,13 +50,8 @@ h1, h2, h3, .brand-name {
     color: var(--secondary-color);
 }
 
-.hero-section h1 {
-    user-select: none;
-    -webkit-user-select: none;
-}
 
-
-/* ====== Botões ====== */
+/* ====== Bot�es ====== */
 
 .btn-primary {
     background-color: var(--secondary-color);
@@ -110,6 +91,11 @@ h1, h2, h3, .brand-name {
     background-color: var(--neutral-dark);
 }
 
+.card.inverted {
+    background-color: var(--neutral-dark) !important;
+    text-align: center;
+    padding: 15px 2px 2px 2px;
+}
 
 
 .card-title {
@@ -160,28 +146,28 @@ h1, h2, h3, .brand-name {
 
 
 .navbar {
-    background-color: var(--primary-color) !important;
+    background-color: var(--primary-color);
     color: white;
-    border-bottom: none !important;
+    border-bottom: none;
 }
 
 .navbar .nav-link {
-    color: white !important;
+    color: white;
 }
 
 .navbar-custom {
-    background-color: var(--primary-color) !important;
-    border-bottom: none !important;
+    background-color: var(--primary-color);
+    border-bottom: none;
 }
 
 .navbar-custom a,
 .navbar-custom .nav-link,
 .navbar-custom .navbar-brand {
-    color: white !important;
+    color: white;
 }
 
 .footer-section {
-    background-color: var(--primary-color) !important;
+    background-color: var(--primary-color);
     color: white;
 }
 
@@ -190,8 +176,8 @@ h1, h2, h3, .brand-name {
 }
 
 .values {
-    color: var(--info-color);
-    background-color: var(--background-info);
+    color: var(--neutral-dark);
+    background-color: var(--neutral-dark);
 }
 .cards {
     display: flex;
@@ -211,9 +197,9 @@ h1, h2, h3, .brand-name {
     transition: transform 0.3s;
 }
 
-    .card:hover {
-        transform: translateY(-5px);
-    }
+.card:hover {
+    transform: translateY(-5px);
+}
 
 .container {
     max-width: 1200px;
@@ -221,42 +207,47 @@ h1, h2, h3, .brand-name {
     padding: 2rem;
 }
 
-/* ===== Fundo bege esverdeado para as seções ===== */
-.essencia-section,
+/* ===== Fundo bege esverdeado para as se��es ===== */
 .servicos-section {
-    background-color: #b9c4b6; /* bege esverdeado suave */
-    border-radius: 12px;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    background-color: var(--neutral-light); /* bege esverdeado suave */
 }
 
-/* Espaço entre seções */
-.essencia-section {
-    margin-bottom: 4rem;
+.servicos-section{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
-    /* ===== Cards escuros (tons azulados) ===== */
-    .essencia-section .card.inverted,
-    .servicos-section .card.inverted {
-        background-color: #182C61; /* navy blue consistente com a paleta */
-        color: #f0efeb; /* texto claro */
-        border-radius: 10px;
-    }
+.card.inverted, .servicos-section .card.inverted {
+    background-color: var(--primary-color); 
+    color: var(--neutral-light);
+}
 
-    /* ===== Títulos ===== */
-    .essencia-section h2,
-    .servicos-section h2 {
-        color: #2C3A47; /* cinza escuro consistente */
-        font-weight: 800;
-    }
+/* ===== T�tulos ===== */
+.servicos-section h2 {
+    color: var(--neutral-dark);
+    font-weight: 800;
+}
 
-    /* ===== Textos dentro dos cards ===== */
-    .card-inverted-title {
-        color: #ffffff;
-        font-weight: 700;
-    }
+/* ===== Textos dentro dos cards ===== */
+.card-inverted-title {
+    color: white;
+    font-weight: 700;
+}
 
-    .card-inverted-text {
-        color: #eaeaea;
-    }
+.card-inverted-text {
+    color: var(--neutral-light);
+}
 
+.projects .section-title {
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.project-title {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: var(--neutral-light);
+    margin-bottom: 0.5rem;
+}
