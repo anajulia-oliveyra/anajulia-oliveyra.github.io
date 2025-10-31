@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "PaginaEmpresa",
   "resources": {
-    "hash": "sha256-fAwkWWgsqESMUPxjqLkdbEjBDRLbb4EdrBwY3Nb5lek=",
+    "hash": "sha256-Ve2uUb6P0TeYLhKToNqimacJeFHKGMplBsl5OgO2Mvw=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-rEOhr1XOq2JFnl/LD3DOaefHqAI9tGpIGhYPUQMqTAA="
     },
@@ -9,7 +9,7 @@
       "dotnet.runtime.js": "sha256-aLf0XK8bqX83FXyXydFPTC1FOTq3PaeGDyoDn3uz194="
     },
     "wasmNative": {
-      "dotnet.native.wasm": "sha256-DH0O/Ei+KfJx4VOMb8GuIN9D6mrRcNMvleGubVpVzjM="
+      "dotnet.native.wasm": "sha256-3WSVEgFJMzmAH0rIGROV20gbpiArrBdn3sI1APM6ohA="
     },
     "icu": {
       "icudt_CJK.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -47,7 +47,7 @@
       "System.Text.Json.wasm": "sha256-3vxvs3w8ZIuZJi6xX/+MPidekiuLF0fqJeIPO3T6xCM=",
       "System.Text.RegularExpressions.wasm": "sha256-tCTxwg2N3nkoTMDAtfc+X4iVUDF7K9iBuzpAhgC284E=",
       "System.Private.CoreLib.wasm": "sha256-9OpWGfUMZ7dXNG7u737Afw8Q30AhpsumMOedQQoGKTc=",
-      "PaginaEmpresa.wasm": "sha256-wCXpGBd5yHyBbk0MVMC0RyA++7OQYuKGlKAlTIvACVc="
+      "PaginaEmpresa.wasm": "sha256-ZKI5rTgZq/KWK1904lOgwCrCDdvhb1aNIsKfrcQgWL0="
     }
   },
   "cacheBootResources": true,
